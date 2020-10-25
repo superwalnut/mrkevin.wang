@@ -1,8 +1,8 @@
 ---
 title: "Convert markdown code blocks to gist embeded code for multiple blogging platforms"
 date: 2020-09-28T13:45:06+06:00
-image: images/blog/angular-lambda.png
-feature_image: images/blog/angular-lambda-feature.png
+image: images/md-gist.png
+feature_image: images/md-gist-feature.png
 author: Kevin Wang
 summary: Write your tech blog in markdown with gist code blocks that can be published in medium.
 ---
