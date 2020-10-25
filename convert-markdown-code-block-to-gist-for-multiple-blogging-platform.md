@@ -1,8 +1,8 @@
 ---
 title: "Convert markdown code blocks to gist embeded code for multiple blogging platforms"
 date: 2020-09-28T13:45:06+06:00
-image: images/md-gist.png
-feature_image: images/md-gist-feature.png
+image: https://github.com/superwalnut/mrkevin.wang/blob/master/images/md-gist.png
+feature_image: https://github.com/superwalnut/mrkevin.wang/blob/master/images/md-gist-feature.png
 author: Kevin Wang
 summary: Write your tech blog in markdown with gist code blocks that can be published in medium.
 ---
@@ -57,11 +57,11 @@ Just type `md-gist` in your terminal and if it is successfully installed, it sho
 
 Because we need to access gist to create files, so I go to [Github Create Access Token](https://github.com/settings/tokens/new) to create a new token.
 
-![Github Access Token](./images/github-access-token.png)
+![Github Access Token](https://github.com/superwalnut/mrkevin.wang/blob/master/images/github-access-token.png)
 
 And make sure you select the Gist scope.
 
-![Gist Scope](./images/gist-scope.png)
+![Gist Scope](https://github.com/superwalnut/mrkevin.wang/blob/master/images/gist-scope.png)
 
 ## Convert code blocks to gist and import to medium
 
@@ -91,14 +91,14 @@ Sorry I didn't mention it works for other blog engines as well, I mean they all 
 
 And **my-blog-post-[Medium].md** is your candidate to import to medium. Of course you have to push your post online that medium can access it. (I pushed my post to a github repository and get the shareable link, you can also use gist to save your post online.)
 
-![Medium import](./images/medium-import.png)
+![Medium import](https://github.com/superwalnut/mrkevin.wang/blob/master/images/medium-import.png)
 
 
 ## Import to medium via command [MD-Gist](https://www.nuget.org/packages/MD-Gist/)
 
 First you need to create medium integration token in [account settings](https://medium.com/me/settings)
 
-![Medium Integration Token](./images/medium-token.png)
+![Medium Integration Token](https://github.com/superwalnut/mrkevin.wang/blob/master/images/medium-token.png)
 
 Then enter the command
 
