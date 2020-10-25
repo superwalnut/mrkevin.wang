@@ -1,5 +1,5 @@
 ---
-title: "Convert markdown code blocks to gist embeded code for multiple blogging platforms"
+title: "Convert markdown code blocks to gist embedded code for multiple blogging platforms"
 date: 2020-09-28T13:45:06+06:00
 image: https://github.com/superwalnut/mrkevin.wang/blob/master/images/md-gist.png
 feature_image: https://github.com/superwalnut/mrkevin.wang/blob/master/images/md-gist-feature.png
@@ -17,7 +17,7 @@ The medium gives you a nicely formatted code blocks. Hooray!
 
 The only hassle is if you have multiple code blocks in one single post, you have to repeat the same steps over and over again and also don't get confused which code block goes where.
 
-So I have been thinking how to reduce the repetition and make writting blog post more efficiently. Here is what I did,
+So I have been thinking how to reduce the repetition and make writing blog post more efficiently. Here is what I did,
 
 I write my blogs in markdown (because I always try to keep my post independently to any platform or blog engines) and create a tool to convert code blocks to gist links that can be shared to medium.
 
@@ -25,9 +25,9 @@ The tool is called [MD-Gist](https://www.nuget.org/packages/MD-Gist/), it can be
 
 It does two things (well actually more than just two things, I will write more blogs about other features later on):
 
-first it scan your post, and discover all the code blocks within the backtick blocks.
+First it scan your post, and discover all the code blocks within the back-tick blocks.
 
-then it creates a gist file with the code block and replace the code with a gist url.
+Then it creates a gist file with the code block and replace the code with a gist url.
 
 finally, you can import your post (in markdown format) to meidum without any hassle. Medium allows writers to import post via a url. as I am keeping my posts in github repository and I can just copy and paste that file's (e.g. <MyPost>.md) url to medium and click "import".
 
@@ -109,7 +109,7 @@ Please target the `<Files Path>` with generated `my-blog-post-[Medium].md` for b
 
 ## Automate conversion using github action
 
-This github action that will automatically detect any .md files and convert the code blocks to gist embeded code and pushed these new files to the repository as well.
+This github action that will automatically detect any .md files and convert the code blocks to gist embedded code and pushed these new files to the repository as well.
 
 ```
     - name: Parse markdown
