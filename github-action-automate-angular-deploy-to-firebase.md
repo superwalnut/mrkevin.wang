@@ -1,12 +1,3 @@
----
-title: "Using Github actions to automate CI/CD and deploy angular 11 apps to firebase"
-date: 2021-01-28T13:45:06+06:00
-image: https://github.com/superwalnut/mrkevin.wang/blob/master/images/md-gist.png
-feature_image: https://github.com/superwalnut/mrkevin.wang/blob/master/images/md-gist-feature.png
-author: Kevin Wang
-summary: I am building an angular 11 app and deploy to firebase using github actions to automate this process.
----
-
 If you have built an angular app, where would you deploy it? I have tried a number of cloud providers which you can achieve the same results, such as aws lambda, azure web app, netlify and google firebase, etc. I am writing a series of articles to demonstrate how to deploy in all of these providers. Today I am showing you how to build an angular app and deploy to google firebase.
 
 ## Part 1. Prerequisite
